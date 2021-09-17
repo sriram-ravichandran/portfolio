@@ -29,7 +29,7 @@ const Home = () => {
     return(isLoading ?
   
       // If page is still loading then splash screen
-      <div style={{alignItems:'center',justifyContent:'center',top:'45%',left:'45%',position:'absolute'}}><PacmanLoader color={'#36D7B7'} isLoading={isLoading}
+      <div style={{top:'45%',left:'45%',position:'absolute'}}><PacmanLoader color={'#3399ff'} isLoading={isLoading}
         css={override}  size={30} /></div> :
       
 
