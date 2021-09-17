@@ -4,7 +4,7 @@ import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
 const Type = () => {
     return(
         <div style={{fontSize:40,color:'black'}}><Typewriter
-        words={['Android Developer', 'Web Developer', 'Engineering Student !']}
+        words={['Developer', 'Student !']}
             loop={0}
             cursor
             cursorStyle='|'
