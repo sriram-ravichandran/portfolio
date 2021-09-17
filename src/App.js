@@ -30,7 +30,7 @@ const Home = () => {
   
       // If page is still loading then splash screen
       <div style={{alignItems:'center',justifyContent:'center',top:'45%',left:'45%',position:'absolute'}}><PacmanLoader color={'#36D7B7'} isLoading={isLoading}
-        css={override}  size={50} /></div> :
+        css={override}  size={30} /></div> :
       
 
     <div style={{backgroundColor:'#fff'}} className='container-fluid'>
