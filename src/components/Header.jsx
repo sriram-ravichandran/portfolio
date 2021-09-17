@@ -51,7 +51,7 @@ function Header() {
       <Container>
 
         <Navbar.Brand href="/">
-          <h3 style={{color:'black'}}>Sr.</h3>
+          <h3 style={{color:'black'}}>PortFolio</h3>
         </Navbar.Brand>
 
         <Navbar.Toggle
