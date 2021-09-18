@@ -79,7 +79,7 @@ function Header() {
               duration={500}
               //onClick={() => updateExpanded(false)}
               
-              ><AiOutlineHome style={{ marginBottom: "2px" ,color:'black'}}/><span style={{color:'black'}}>Home</span></Nav.Link>
+              ><AiOutlineHome style={{ marginBottom: "2px" ,color:'black'}}/><span style={{cursor:'pointer',color:'black'}}>Home</span></Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
@@ -93,7 +93,7 @@ function Header() {
               duration={500}
               //onClick={() => updateExpanded(false)}
               
-              ><AiOutlineUser style={{ marginBottom: "2px" ,color:'black'}}/><span style={{color:'black'}}>About</span> </Nav.Link>
+              ><AiOutlineUser style={{ marginBottom: "2px" ,color:'black'}}/><span style={{cursor:'pointer',color:'black'}}>About</span> </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
@@ -107,7 +107,7 @@ function Header() {
               duration={500}
               //onClick={() => updateExpanded(false)}
               
-              ><AiOutlineProject style={{ marginBottom: "2px" ,color:'black'}}/><span style={{color:'black'}}>Projects</span> </Nav.Link>
+              ><AiOutlineProject style={{ marginBottom: "2px" ,color:'black'}}/><span style={{cursor:'pointer',color:'black'}}>Projects</span> </Nav.Link>
             </Nav.Item>
 
 
@@ -122,7 +122,7 @@ function Header() {
               duration={500}
               //onClick={() => updateExpanded(false)}
               
-              ><AiOutlineFundProjectionScreen style={{ marginBottom: "2px" ,color:'black'}}/><span style={{color:'black'}}>Certifications</span></Nav.Link>
+              ><AiOutlineFundProjectionScreen style={{ marginBottom: "2px" ,color:'black'}}/><span style={{cursor:'pointer',color:'black'}}>Certifications</span></Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
@@ -136,7 +136,7 @@ function Header() {
               duration={500}
               
               
-              ><CgFileDocument style={{ marginBottom: "2px" ,color:'black'}}/><span style={{color:'black'}}>Contact</span></Nav.Link>
+              ><CgFileDocument style={{ marginBottom: "2px" ,color:'black'}}/><span style={{cursor:'pointer',color:'black'}}>Contact</span></Nav.Link>
             </Nav.Item>
             {/* <Nav.Item>
               <Nav.Link
@@ -158,11 +158,11 @@ function Header() {
 <div style={{backgroundColor:'#EBEDEF',background:'transparent',borderRadius: 40}} class="overlay-itro">
 <ParticlesBg type="polygon" bg={true} />
 </div>
-<div class="hero-content display-table">
+<div  class="hero-content display-table">
     
   <div class="table-cell">
       
-    <div class="container">
+    <div style={{margin:'auto'}} class="container">
         
       
       <h1 style={{color:'black'}} class="hero-title">Hi There, I'm Sriram <span class='wave' roll='image' aria-labelledby='wave'>👋🏻</span></h1>

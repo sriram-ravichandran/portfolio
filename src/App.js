@@ -5,7 +5,7 @@ import Aboutt from './components/about';
 import Projects from './components/projects';
 import Contactt from './components/contact';
 import Certii from './components/certifications';
-import PacmanLoader from "react-spinners/PacmanLoader";
+import PacmanLoader from "react-spinners/HashLoader";
 
 
 const Home = () => {
@@ -22,15 +22,17 @@ const Home = () => {
   
   // Custom css for loader
   const override = `
-  display: block;
-  margin: 0 auto;
-  border-color: red;
+  position: absolute;
+    top: 47%;
+    left: 49%;
+    margin-right: -49%;
+    transform: translate(-50%, -47%);
 `;
     return(isLoading ?
   
       // If page is still loading then splash screen
-      <div style={{top:'45%',left:'44%',position:'absolute'}}><PacmanLoader color={'#3399ff'} isLoading={isLoading}
-        css={override}  size={30} /></div> :
+      <div style={{top:50}}><PacmanLoader isLoading={isLoading}
+        css={override}  size={40} /></div> :
       
 
     <div style={{backgroundColor:'#fff'}} className='container-fluid'>

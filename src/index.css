@@ -668,6 +668,7 @@ body {
   text-align: center;
   border: 2px solid #eeeeee;
   border-radius: 40px;
+  margin: auto
 }
 
 .service .icon {
@@ -683,7 +684,7 @@ body {
 
 .service .icon i {
   font-size: 36px;
-  line-height: 1;
+  line-height: 0;
   color: #3399ff;
 }
 
@@ -711,6 +712,7 @@ body {
 .service .icon-box:hover .title a {
   color: #3399ff;
 }
+
 
 
   
@@ -758,7 +760,7 @@ body {
   
   @media (min-width: 768px) {
     .hero .hero-title {
-      font-size: 4.5rem;
+      font-size: 4.0rem;
     }
   }
   
@@ -1558,3 +1560,21 @@ body {
       margin-bottom: 0;
     }
     
+
+
+    .my-photo{
+      padding-top: 40%;
+      border-radius: 60%;
+    }
+
+
+    @media(max-width: 768px){
+      .my-photo{
+      padding-top: 0%;}
+    }
+
+    .preloader{
+
+      
+
+    }
