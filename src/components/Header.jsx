@@ -77,9 +77,10 @@ function Header() {
               smooth={true}
               offset={-70}
               duration={500}
+              style={{cursor:'pointer'}}
               //onClick={() => updateExpanded(false)}
               
-              ><AiOutlineHome style={{ marginBottom: "2px" ,color:'black'}}/><span style={{cursor:'pointer',color:'black'}}>Home</span></Nav.Link>
+              ><AiOutlineHome style={{ marginBottom: "2px" ,color:'black'}}/><span style={{color:'black'}}>Home</span></Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
@@ -91,9 +92,10 @@ function Header() {
               smooth={true}
               offset={-70}
               duration={500}
+              style={{cursor:'pointer'}}
               //onClick={() => updateExpanded(false)}
               
-              ><AiOutlineUser style={{ marginBottom: "2px" ,color:'black'}}/><span style={{cursor:'pointer',color:'black'}}>About</span> </Nav.Link>
+              ><AiOutlineUser style={{ marginBottom: "2px" ,color:'black'}}/><span style={{color:'black'}}>About</span> </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
@@ -105,9 +107,10 @@ function Header() {
               smooth={true}
               offset={-70}
               duration={500}
+              style={{cursor:'pointer'}}
               //onClick={() => updateExpanded(false)}
               
-              ><AiOutlineProject style={{ marginBottom: "2px" ,color:'black'}}/><span style={{cursor:'pointer',color:'black'}}>Projects</span> </Nav.Link>
+              ><AiOutlineProject style={{ marginBottom: "2px" ,color:'black'}}/><span style={{color:'black'}}>Projects</span> </Nav.Link>
             </Nav.Item>
 
 
@@ -120,9 +123,10 @@ function Header() {
               smooth={true}
               offset={-70}
               duration={500}
+              style={{cursor:'pointer'}}
               //onClick={() => updateExpanded(false)}
               
-              ><AiOutlineFundProjectionScreen style={{ marginBottom: "2px" ,color:'black'}}/><span style={{cursor:'pointer',color:'black'}}>Certifications</span></Nav.Link>
+              ><AiOutlineFundProjectionScreen style={{ marginBottom: "2px" ,color:'black'}}/><span style={{color:'black'}}>Certifications</span></Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
@@ -134,9 +138,10 @@ function Header() {
               smooth={true}
               offset={-70}
               duration={500}
+              style={{cursor:'pointer'}}
               
               
-              ><CgFileDocument style={{ marginBottom: "2px" ,color:'black'}}/><span style={{cursor:'pointer',color:'black'}}>Contact</span></Nav.Link>
+              ><CgFileDocument style={{ marginBottom: "2px" ,color:'black'}}/><span style={{color:'black'}}>Contact</span></Nav.Link>
             </Nav.Item>
             {/* <Nav.Item>
               <Nav.Link
