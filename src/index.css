@@ -1562,14 +1562,5 @@ body {
     
 
 
-    .my-photo{
-      padding-top: 40%;
-      border-radius: 60%;
-    }
 
-
-    @media(max-width: 768px){
-      .my-photo{
-      padding-top: 0%;}
-    }
 
