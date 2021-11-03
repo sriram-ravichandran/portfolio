@@ -16,7 +16,7 @@ const Projects = () => {
         <div class="row">
           <div class="col-sm-12">
             <div class="title-box text-center">
-              <h3  class="title-a">
+              <h3 style={{color:'white'}}  class="title-a">
                 Projects
               </h3>
 
@@ -24,7 +24,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div class="row">
+        <div style={{alignItems:'center',justifyContent:'center'}} class="row">
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
@@ -55,7 +55,7 @@ intercollege students
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i ><FaRegStickyNote/></i></span>
+                <span  class="ico-circle"><i ><FaRegStickyNote/></i></span>
               </div>
               <div class="service-content">
                 <h2 class="s-title">Simple Notes</h2>

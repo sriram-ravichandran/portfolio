@@ -32,7 +32,7 @@ const Contactt = () => {
                     <div style={{color:'white'}} class="more-info">
                     <ParticlesBg type="circle" num={50} bg={true} />
                       <p class="lead">
-                      Trying to Contact? Swing by for a cup of coffee, or leave us a message:
+                      Trying to Contact? Swing by for a cup of coffee, or leave me a message:
                       </p>
                       <ul class="list-ico">
                         <li><span class="bi bi-envelope"></span> sriramravichandran02@gmail.com</li>
@@ -60,7 +60,7 @@ const Contactt = () => {
 <div  class="container">
   <div class="row">
     <div class="col-sm-12">
-      <div class="copyright-box">
+      <div style={{color:'white'}} class="copyright-box">
         <p class="copyright">&copy;<strong> Copyright </strong>. All Rights Reserved</p>
         <div class="credits">
           Designed by Sriram

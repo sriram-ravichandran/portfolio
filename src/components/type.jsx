@@ -3,7 +3,7 @@ import { Typewriter,} from 'react-simple-typewriter'
 
 const Type = () => {
     return(
-        <div style={{fontSize:40,color:'black'}}><Typewriter
+        <div style={{fontSize:40,color:'white'}}><Typewriter
         words={['Developer', 'Student']}
             loop={0}
             cursor

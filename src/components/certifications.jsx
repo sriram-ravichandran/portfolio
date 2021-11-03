@@ -16,7 +16,7 @@ return(
 <div style={{fontSize:18}} class="container-fluid">
 
   <div class="title-box text-center">
-    <span  class='title-a'>My Certifications</span>
+    <span style={{color:'white'}}  class='title-a'>My Certifications</span>
     
     <div class="line-mf"></div>
   </div>
@@ -26,33 +26,33 @@ return(
 
   <div style={{alignItems:'center',justifyContent:'center'}} class="row">
     <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-      <div style={{width:220}} class="icon-box">
+      <div style={{width:220,backgroundColor:'222222'}} class="icon-box">
         <div class="icon"><i ><SiCplusplus/></i></div>
-        <h2 class="title">C and C++</h2>
+        <h2 style={{color:'white'}} class="title">C and C++</h2>
 
       </div>
     </div>
 
     <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-      <div style={{width:220}} class="icon-box">
+      <div style={{width:220,backgroundColor:'222222'}} class="icon-box">
         <div  class="icon"><i><SiPython/></i></div>
-        <h2 class="title">Python</h2>
+        <h2 style={{color:'white'}} class="title">Python</h2>
 
       </div>
     </div>
 
     <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-      <div style={{width:220}} class="icon-box">
+      <div style={{width:220,backgroundColor:'222222'}} class="icon-box">
         <div class="icon"><i ><FaLinux/></i></div>
-        <h2 class="title">Linux Unhatched</h2>
+        <h2 style={{color:'white'}} class="title">Linux Unhatched</h2>
 
       </div>
     </div>
 
     <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-      <div style={{width:220}} class="icon-box">
+      <div style={{width:220,backgroundColor:'222222'}} class="icon-box">
         <div class="icon"><i ><FaCloud/></i></div>
-        <h2 class="title">Cloud Computing</h2>
+        <h2 style={{color:'white'}} class="title">Cloud Computing</h2>
 
       </div>
     </div>

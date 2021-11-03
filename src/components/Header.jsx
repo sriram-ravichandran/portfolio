@@ -51,7 +51,7 @@ function Header() {
       <Container>
 
         <Navbar.Brand href="/">
-          <h3 style={{color:'black'}}>PortFolio</h3>
+          <h3 style={{color:'white'}}>PortFolio</h3>
         </Navbar.Brand>
 
         <Navbar.Toggle
@@ -80,7 +80,7 @@ function Header() {
               style={{cursor:'pointer'}}
               //onClick={() => updateExpanded(false)}
               
-              ><AiOutlineHome style={{ marginBottom: "2px" ,color:'black'}}/><span style={{color:'black'}}>Home</span></Nav.Link>
+              ><AiOutlineHome style={{ marginBottom: "2px" ,color:'white'}}/><span style={{color:'white'}}>Home</span></Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
@@ -95,7 +95,7 @@ function Header() {
               style={{cursor:'pointer'}}
               //onClick={() => updateExpanded(false)}
               
-              ><AiOutlineUser style={{ marginBottom: "2px" ,color:'black'}}/><span style={{color:'black'}}>About</span> </Nav.Link>
+              ><AiOutlineUser style={{ marginBottom: "2px" ,color:'white'}}/><span style={{color:'white'}}>About</span> </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
@@ -110,7 +110,7 @@ function Header() {
               style={{cursor:'pointer'}}
               //onClick={() => updateExpanded(false)}
               
-              ><AiOutlineProject style={{ marginBottom: "2px" ,color:'black'}}/><span style={{color:'black'}}>Projects</span> </Nav.Link>
+              ><AiOutlineProject style={{ marginBottom: "2px" ,color:'white'}}/><span style={{color:'white'}}>Projects</span> </Nav.Link>
             </Nav.Item>
 
 
@@ -126,7 +126,7 @@ function Header() {
               style={{cursor:'pointer'}}
               //onClick={() => updateExpanded(false)}
               
-              ><AiOutlineFundProjectionScreen style={{ marginBottom: "2px" ,color:'black'}}/><span style={{color:'black'}}>Certifications</span></Nav.Link>
+              ><AiOutlineFundProjectionScreen style={{ marginBottom: "2px" ,color:'white'}}/><span style={{color:'white'}}>Certifications</span></Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
@@ -141,17 +141,9 @@ function Header() {
               style={{cursor:'pointer'}}
               
               
-              ><CgFileDocument style={{ marginBottom: "2px" ,color:'black'}}/><span style={{color:'black'}}>Contact</span></Nav.Link>
+              ><CgFileDocument style={{ marginBottom: "2px" ,color:'white'}}/><span style={{color:'white'}}>Contact</span></Nav.Link>
             </Nav.Item>
-            {/* <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
-            </Nav.Item> */}
+
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -160,8 +152,8 @@ function Header() {
 <div style={{borderRadius:25}} id="hero" class="hero route bg-image" >
     
     
-<div style={{backgroundColor:'#EBEDEF',background:'transparent',borderRadius: 40}} class="overlay-itro">
-<ParticlesBg type="polygon" bg={true} />
+<div style={{backgroundColor:'#212124',background:'transparent',borderRadius: 40}} class="overlay-itro">
+<ParticlesBg type="polygon" color={'#212124'} bg={true} />
 </div>
 <div  class="hero-content display-table">
     
@@ -170,7 +162,7 @@ function Header() {
     <div style={{margin:'auto'}} class="container">
         
       
-      <h1 style={{color:'black'}} class="hero-title">Hi There, I'm Sriram <span class='wave' roll='image' aria-labelledby='wave'>👋🏻</span></h1>
+      <h1 style={{color:'white'}} class="hero-title">Hi There, I'm Sriram <span class='wave' roll='image' aria-labelledby='wave'>👋🏻</span></h1>
       <div style={{padding:15,textAlign:'center'}}/>
       
       <Typee />
