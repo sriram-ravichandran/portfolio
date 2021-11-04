@@ -512,9 +512,9 @@ body {
   
   
   .sticky {
-    background-color: #20605c99 !important;
+    background-color: #00002099 !important;
     transition: all 0.3s ease-out 0s !important;
-    box-shadow: 0px 1px 15px 0px whitesmoke  !important;
+    box-shadow: 0px 1px 15px 0px black  !important;
     backdrop-filter: blur(10px) !important;
   }
   
@@ -663,7 +663,7 @@ body {
   padding: 30px;
   position: relative;
   overflow: hidden;
-  background: #3aafa9;
+  background-image: linear-gradient(to right bottom, #2adccb, #00d3d6, #00c9de, #00bee3, #24b3e3);
   box-shadow: 0 0px 10px 0 #2d8681;
   transition: all 0.3s ease-in-out;
   text-align: center;
@@ -872,9 +872,9 @@ body {
   # Services
   --------------------------------------------------------------*/
   .service-box {
-    background-color: #3aafa9;
+    background-image: linear-gradient(to right top, #2adccb, #00d3d6, #00c9de, #00bee3, #24b3e3);
     padding: 1.3rem 1.3rem;
-    box-shadow: 0 10px 29px 0 rgba(58, 175, 169, 1);
+    box-shadow: 0 10px 10px 0 #057ead;
     border-radius: 1rem;
     margin-bottom: 3rem;
     text-align: center;
@@ -882,8 +882,8 @@ body {
     border-width: 2px;
     border-top-color: #66ccc7;
     border-left-color: #66ccc7;
-    border-right-color: #525252 ;
-    border-bottom-color: #525252 ;
+    border-right-color: #66ccc7 ;
+    border-bottom-color: #66ccc7 ;
 
   }
   

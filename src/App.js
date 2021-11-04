@@ -35,7 +35,7 @@ const Home = () => {
         css={override}  size={40} /></div> :
       
 
-    <div style={{backgroundColor: '#3aafa9'}} className='container-fluid'>    
+    <div style={{backgroundImage: "linear-gradient(to right, #10b5f8, #00c6f8, #00d6ef, #00e4dd, #1EDCCA)" }} className='container-fluid'>    
 
 
       <Header/>
