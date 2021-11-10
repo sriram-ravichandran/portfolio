@@ -26,7 +26,7 @@ const Home = () => {
     top: 47%;
     left: 49%;
     margin-right: -49%;
-    transform: translate(-48%, -47%);
+    transform: translate(-50%, -50%);
 `;
     return(isLoading ?
   
