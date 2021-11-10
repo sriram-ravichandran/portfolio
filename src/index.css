@@ -512,7 +512,7 @@ body {
   
   
   .sticky {
-    background-color: #00002099 !important;
+    background-color: #00000070 !important;
     transition: all 0.3s ease-out 0s !important;
     box-shadow: 0px 1px 15px 0px black  !important;
     backdrop-filter: blur(10px) !important;
@@ -581,7 +581,7 @@ body {
     .navbar {
       padding: 0rem 2rem !important;
       font-size: 1.4rem !important;
-      background-color: #20605c99 !important;
+      background-color: #00000070 !important;
     }
     .navbar-nav .nav-item a::after {
       display: none !important;
@@ -663,11 +663,11 @@ body {
   padding: 30px;
   position: relative;
   overflow: hidden;
-  background-image: linear-gradient(to right bottom, #2adccb, #00d3d6, #00c9de, #00bee3, #24b3e3);
-  box-shadow: 0 0px 10px 0 #2d8681;
+  background-color: #00000010;
+  box-shadow: 0 0px 10px 0 #66ccc7;
   transition: all 0.3s ease-in-out;
   text-align: center;
-  border: 2px solid #3aafa9;
+  border: 2px solid #66ccc7;
   border-radius: 40px;
   margin: auto
 }
@@ -872,9 +872,9 @@ body {
   # Services
   --------------------------------------------------------------*/
   .service-box {
-    background-image: linear-gradient(to right top, #2adccb, #00d3d6, #00c9de, #00bee3, #24b3e3);
+    background-color: #00000010;
     padding: 1.3rem 1.3rem;
-    box-shadow: 0 10px 10px 0 #057ead;
+    box-shadow: 0 4px 6px 0 #66ccc7;
     border-radius: 1rem;
     margin-bottom: 3rem;
     text-align: center;
@@ -889,7 +889,7 @@ body {
   
   .service-box:hover .ico-circle {
     transition: all 500ms ease;
-    color: #3aafa9;
+    color: #3fd9d4;
     background-color: #fff;
     box-shadow: 0 0 0 10px #cde1f8;
     

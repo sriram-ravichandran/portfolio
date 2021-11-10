@@ -23,10 +23,13 @@ const Home = () => {
   // Custom css for loader
   const override = `
   position: absolute;
-    top: 47%;
-    left: 49%;
-    margin-right: -49%;
-    transform: translate(-50%, -47%);
+    top: 50%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -40px;
+    width: 100px;
+    height: 100px;
+    
 `;
     return(isLoading ?
   
@@ -35,7 +38,7 @@ const Home = () => {
         css={override}  size={40} /></div> :
       
 
-    <div style={{backgroundImage: "linear-gradient(to right, #10b5f8, #00c6f8, #00d6ef, #00e4dd, #1EDCCA)" }} className='container-fluid'>    
+    <div style={{backgroundImage: "linear-gradient(to right top, #4c79e1, #0098f0, #00b2ef, #00c8e5, #4ddcd8)" }} className='container-fluid'>    
 
 
       <Header/>
