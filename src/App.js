@@ -24,8 +24,8 @@ const Home = () => {
   const override = `
   position: absolute;
     top: 47%;
-    left: 49%;
-    margin-right: -49%;
+    left: 50%;
+    margin-right: -48%;
     transform: translate(-50%, -50%);
 `;
     return(isLoading ?
