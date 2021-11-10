@@ -23,13 +23,10 @@ const Home = () => {
   // Custom css for loader
   const override = `
   position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -40px;
-    margin-left: -40px;
-    width: 100px;
-    height: 100px;
-    
+    top: 47%;
+    left: 49%;
+    margin-right: -49%;
+    transform: translate(-48%, -47%);
 `;
     return(isLoading ?
   
