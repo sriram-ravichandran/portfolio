@@ -664,10 +664,10 @@ body {
   position: relative;
   overflow: hidden;
   background-color: #00000010;
-  box-shadow: 0 0px 10px 0 #66ccc7;
+  box-shadow: 0 0px 10px 0 #fff;
   transition: all 0.3s ease-in-out;
   text-align: center;
-  border: 2px solid #66ccc7;
+  border: 2px solid #fff;
   border-radius: 40px;
   margin: auto
 }
@@ -708,8 +708,8 @@ body {
 }
 
 .service .icon-box:hover {
-  border-color: #fff;
-  box-shadow: 0 3px 7px 0 #fff;
+  border-color: #66ccc7;
+  box-shadow: 0 3px 7px 0 #66ccc7;
 }
 
 .service .icon-box:hover .title a {
@@ -874,16 +874,16 @@ body {
   .service-box {
     background-color: #00000010;
     padding: 1.3rem 1.3rem;
-    box-shadow: 0 4px 6px 0 #66ccc7;
+    box-shadow: 0 4px 6px 0 #fff;
     border-radius: 1rem;
     margin-bottom: 3rem;
     text-align: center;
     border-style: solid;
     border-width: 2px;
-    border-top-color: #66ccc7;
-    border-left-color: #66ccc7;
-    border-right-color: #66ccc7 ;
-    border-bottom-color: #66ccc7 ;
+    border-top-color: #fff;
+    border-left-color: #fff;
+    border-right-color: #fff ;
+    border-bottom-color: #fff ;
 
   }
   
@@ -891,7 +891,7 @@ body {
     transition: all 500ms ease;
     color: #3fd9d4;
     background-color: #fff;
-    box-shadow: 0 0 0 10px #cde1f8;
+    box-shadow: 0 0 0 10px #fff;
     
   }
   

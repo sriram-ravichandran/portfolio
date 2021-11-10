@@ -23,15 +23,16 @@ const Home = () => {
   // Custom css for loader
   const override = `
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    top: 48%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 
 `;
     return(isLoading ?
   
       // If page is still loading then splash screen
-      <div className="Center" style={{width:60,height:60}}><PacmanLoader isLoading={isLoading}
+      <div ><PacmanLoader isLoading={isLoading}
         css={override}  size={40} /></div> :
       
 
