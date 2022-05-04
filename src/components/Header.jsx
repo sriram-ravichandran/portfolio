@@ -50,7 +50,7 @@ function Header() {
     >
       <Container>
 
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/portfolio">
           <h3 style={{color:'white'}}>PortFolio</h3>
         </Navbar.Brand>
 
